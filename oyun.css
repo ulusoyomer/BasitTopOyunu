@@ -1,0 +1,76 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Indie Flower', cursive;
+}
+#cerceve{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right,#d3d3d3,#6d6d6d);
+    position: relative;
+    
+}
+#desen{
+    position: relative;
+    width: 500px;
+    height: 330px;
+    top:40%;
+    background-image: url("desen.png");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    left: -20px;
+    top: -20px;
+
+    
+}
+#fo{
+    position: relative;
+    width: 455px;
+    margin:auto;
+    top:30%;
+    background: #d1a35e;
+    border-radius: 10px;
+    height: 305px;
+
+}
+a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    background:linear-gradient(to bottom right,#d3d3d3,#6d6d6d);
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 10px;
+    -webkit-transition: background 1s,color 1s;
+    -moz-transition: background 1s,color 1s;
+    -o-transition: background 1s,color 1s;
+    -ms-transition: background 1s,color 1s;
+    transition: background 1s,color 1s;
+
+
+}
+a:hover{
+    background: whitesmoke;
+    color: #6d6d6d;
+    cursor: pointer;
+}
+span{
+    font-size: 60px;
+    color: #728ca5;
+    font-style: oblique;
+
+}
+input[type=text]{
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 5px;
+    color: #6d6d6d;
+    background: whitesmoke;
+}
+table{
+    position: relative;
+    top: 30%;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Oyun</title>
+    <link rel="stylesheet" href="oyun.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+<body>
+    <div id="cerceve">
+        <div id="fo">
+            <div id="desen">
+                <table border="0" align="center" cellspacing="0">
+                    <tr>
+                        <td width="auto" height="50px">
+                            <span>Adınız :&nbsp;</span>
+                        </td>
+                        <td>
+                            <input id="isim" type="text" maxlength="15" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center" height="70px">
+                            <a onclick="isimal()">Başla</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <audio id="music">
+        <source src="hit.wav">
+    </audio>
+    <script type="text/javascript" src="oyun.js"></script>
+</body>
+
+</html>
